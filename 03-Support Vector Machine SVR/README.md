@@ -26,3 +26,5 @@ svr = SVR(kernel='rbf', gamma=0.3, C=10.0, epsilon=epsilon)
 ## epsilon: ancho del tubo. Si el error es menor, lo perdonamos.
 ## C: que tan estricto soy con los que se salen.
 ## Gamma: que tan curva es la banda salarial.
+### Resultado
+![grafica](svr_puntos_bonitos.png)
