@@ -13,3 +13,5 @@ No predice sueldos futuros. Audita los actuales.
 ```python
 epsilon = 600
 svr = SVR(kernel='rbf', gamma=0.3, C=10.0, epsilon=epsilon)
+### Resultado visual
+![auditoria salarial](svr_puntos_bonitos)
