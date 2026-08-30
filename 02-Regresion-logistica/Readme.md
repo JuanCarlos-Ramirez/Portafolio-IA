@@ -38,3 +38,5 @@ Pesos aprendidos: `w_edad=0.59, w_horas=0.82` -> El tiempo en web pesa más.
 git clone https://github.com/TU_USUARIO/compras-s-n-con-regresion-logistica.git
 pip install -r requirements.txt
 python src/modelo.py
+### Presentación Grafica
+logistica_02_frontera.png
