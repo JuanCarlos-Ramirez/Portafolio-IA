@@ -19,6 +19,5 @@ Si el error es mayor a media + 2*desviacion_estandar, se marca como Es_Anomalia 
 Gráfico con puntos azules (normales), rojos con borde negro (fraude) y línea verde (lo que la IA esperaba que vendieras).TecnologíasPython Pandas Numpy Matplotlib Scikit-Learn LinearRegressionResultadoEl proyecto genera el archivo ventas_con_anomalias.csv listo para subir a GitHub y una gráfica profesional para tu portafolio.Qué aprendíQue antes de predecir, primero hay que limpiar. Un modelo entrenado con datos sucios predice mal.
 ```
 ## Representación Grafica
-deteccion_anomalias
 
 ![grafica](deteccion_anomalias.png)
