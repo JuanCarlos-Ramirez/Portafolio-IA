@@ -40,4 +40,5 @@ pip install -r requirements.txt
 python src/modelo.py
 ```
 ### Presentación Grafica
-logistica_02_frontera.png
+![grafica](logistica_02_frontera.png)
+
