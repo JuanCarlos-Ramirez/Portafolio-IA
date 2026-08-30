@@ -12,4 +12,6 @@ Detectar sueldos que se salen de la politica salarial de la empresa usando Suppo
 ```python
 epsilon = 600
 svr = SVR(kernel='rbf', gamma=0.3, C=10.0, epsilon=epsilon)
+ ``` 
+
 ![grafica](svr_puntos_bonitos.png)
