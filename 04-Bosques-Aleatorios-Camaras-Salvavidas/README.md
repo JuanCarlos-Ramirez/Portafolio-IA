@@ -41,7 +41,7 @@ limite_kmh        0.0javascriptEl modelo determina que el factor geográfico es 
 pip install pandas scikit-learn matplotlib
 python main.py
 
-### Resultado Grafico
+### Resultado Grafico cámaras Salvavidas
 
 ![grafica](torta_por_camara.png)
 
