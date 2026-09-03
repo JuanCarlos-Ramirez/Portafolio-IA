@@ -43,7 +43,7 @@ python main.py
 
 ### Resultado Grafico cámaras Salvavidas
 
-![grafica](torta_por_camara.png)
+![grafica](torta_por_cámara.png)
 
 
 
