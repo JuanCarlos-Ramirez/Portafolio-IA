@@ -1,0 +1,32 @@
+# 05 - Factores de Riesgo de Cáncer
+
+## ¿De qué trata?
+Evaluar los factores de riesgo de cáncer a partir de hábitos, antecedentes y salud del paciente, para predecir el nivel de riesgo y el tipo de cáncer más probable.
+
+## Dataset
+Base con 21 columnas. Se usan 18 características (X) y 2 etiquetas (y): Cancer_Type y Risk_Level. Se eliminó Patient_ID porque es solo identificador.
+
+## Variables
+Age, Gender, BMI, Smoking, Alcohol_Use, Obesity, Family_History, BRCA_Mutation, H_Pylori_Infection, Diet_Red_Meat, Diet_Salted_Processed, Fruit_Veg_Intake, Calcium_Intake, Physical_Activity, Air_Pollution, Occupational_Hazards
+
+## ¿Qué predice?
+1. Risk_Level: Low / Medium / High
+2. Cancer_Type: Lung, Breast, Colon, Prostate, entre otros.
+
+## Metodología
+1. Limpieza y eliminación de Patient_ID
+2. Separación de X y y
+3. Entrenamiento y prueba
+4. Modelo de clasificación
+5. Evaluación con Accuracy y Matriz de Confusión
+
+## Resultados
+Modelo: Random Forest / Bosque Aleatorio
+Accuracy: [ponga su número aquí, parce]
+Conclusión: Los factores con mayor peso fueron tabaquismo, antecedentes familiares, obesidad y dieta procesada.
+
+## Cómo ejecutar
+Abrir evaluacion_cancer.ipynb en Google Colab, instalar pandas, numpy, scikit-learn, matplotlib, seaborn y ejecutar todas las celdas.
+
+## Autor
+Juan Carlos Ramírez | 25+ años en Sistemas Empresariales Críticos - AI Developer | Bogotá
