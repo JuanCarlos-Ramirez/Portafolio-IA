@@ -1,0 +1,44 @@
+# 03 - Costos API vs Local
+
+## ¿Qué hace este programa?
+
+Presentar reportes informativos de costos correspondientes al uso de IA 
+vía API o con uso de IA de forma local.
+
+Esto con el ánimo de proyectar opciones para la toma de decisiones.
+Se aclara que los valores son estimados y que la toma de decisión no hace 
+parte del análisis de los datos; es solo informativo para quienes deban 
+tomar la decisión.
+
+## ¿Cómo lo hace?
+
+1.  Carga el archivo `matriz_costos_Final.xlsx` que tiene 3 hojas:
+    *   Hoja 1 - Costos Base
+    *   Hoja 2 - Tope Escalado
+    *   Hoja 3 - Local vs API
+2.  Muestra 3 reportes con su resumen:
+    *   **1. Costos Base:** Costos fijos por cliente. Es la base para calcular todo lo demás.
+    *   **2. Tope Escalado - 2000 registros:** Simulación de qué pasa si llegamos a 2000. Aquí se ve el tope donde ya no es rentable.
+    *   **3. Local vs API - Costo Oculto:** Comparativo del costo real si lo hacemos local vs pagando la API. Aquí está el ahorro oculto.
+3.  Hace el comparativo a escala **2.000M (2B)** - 2.000 millones de tokens.
+    Aquí se ve la diferencia real. En proyecto chiquito todos valen casi $0,
+    a 2B la diferencia es de $49 mil vs $4.5 millones.
+4.  Muestra la tabla de fuentes oficiales para que cualquiera verifique los precios.
+
+## Resultado
+
+*   Reportes informativos de costos, no una decisión. Solo información para decidir.
+*   Gráfica comparativa de costos a 2B tokens.
+
+> **NOTA:** Valores estimados con fines comparativos, calculados el 5 de noviembre de 2026 con precios públicos de lista.
+> Este gráfico compara COSTO, no CALIDAD. Nova es más económico para tareas simples. Claude es más costoso porque está diseñado para mayor razonamiento.
+
+## Gráfica
+
+![Costo estimado a 2.000M tokens](grafica_2B.png)
+
+## Archivos
+
+*   `*.ipynb` - Programa principal
+*   `matriz_costos_Final.xlsx` - Matriz de costos con las 3 hojas
+*   `grafica_2B.png` - Gráfica de costo a 2B tokens
