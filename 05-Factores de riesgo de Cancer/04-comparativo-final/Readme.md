@@ -73,7 +73,7 @@ Así se ve el comparativo. El archivo completo tiene los 2000 registros con scro
 > **Para ver los 2000 registros completos con scroll, descargue el archivo:**
 > **`1_resultados_regresion_Logistica.html`**
 
-## 👔 Informe para el Jefe / Profe
+## 👔 Informe para el Jefe
 
 Este programa también crea un archivo especial para mostrar:
 
