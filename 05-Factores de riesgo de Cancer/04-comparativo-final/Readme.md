@@ -56,7 +56,24 @@ Crea el reporte final con 4 columnas:
 
 > **🏆 CONCLUSIÓN:** La Regresión Logística fue el modelo con mayor eficiencia frente a otros modelos evaluados. Con un **88.95%** de acierto, es el modelo ganador para este proyecto.
 
-## 👔 Informe para el Jefe 
+## 📋 Ejemplo - Primeros 7 Registros Reales
+
+Así se ve el comparativo. El archivo completo tiene los 2000 registros con scroll.
+
+| Patient_ID | Risk_Level_Real_Kaggle | Risk_Level_Predicho_Logistica | Acierto |
+| :--- | :--- | :--- | :--- |
+| LU0000 | Medium | Medium | SI |
+| LU0001 | Medium | Medium | SI |
+| LU0002 | Medium | Medium | SI |
+| LU0003 | Low | Medium | NO |
+| LU0004 | Medium | Medium | SI |
+| LU0005 | Medium | Medium | SI |
+| LU0006 | High | High | SI |
+
+> **Para ver los 2000 registros completos con scroll, descargue el archivo:**
+> **`1_resultados_regresion_Logistica.html`**
+
+## 👔 Informe para el Jefe / Profe
 
 Este programa también crea un archivo especial para mostrar:
 
@@ -65,9 +82,11 @@ Este programa también crea un archivo especial para mostrar:
 Ese archivo tiene la tablita bonita con scroll, con título azul, igual que la de Costos Base.
 Ahí se ven los 2000 pacientes, uno por uno, con su SI o NO.
 
+**NOTA:** GitHub muestra el `.html` como código. Para verlo bonito, descárguelo y ábralo en Chrome. O véalo en el README, que ya tiene el ejemplo y el resultado.
+
 ## 📁 Archivos
 
 *   `*.ipynb` - Programa principal
 *   `cancer-risk-factors.csv` - Matriz de datos históricos con etiquetas
-*   `1_resultados_regresion_Logistica.html` - Tabla bonita del comparativo
+*   `1_resultados_regresion_Logistica.html` - Tabla bonita del comparativo completo (2000)
 *   `README.md` - Este archivo
